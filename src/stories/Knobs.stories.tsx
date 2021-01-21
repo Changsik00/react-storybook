@@ -11,7 +11,7 @@ export default {
 
 // Knobs for React props
 export const withAButton = () => (
-  <button disabled={boolean('Disabled', false)}>
+  <button disabled={boolean('disabled', false)}>
     {text('Label', 'Hello Storybook')}
   </button>
 )
